@@ -3,28 +3,28 @@
 class Oximux < Formula
   desc "Scriptable client and host for OxiMux agent sessions"
   homepage "https://github.com/nhtera/OxiMux"
-  version "0.1.14"
+  version "0.1.15"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.14/oximux-0.1.14-aarch64-apple-darwin.tar.gz"
-      sha256 "df7dca63755144dd22c1a8e7d4b4eda7175a0198b1a919f55d80c06f38b9cb50"
+      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.15/oximux-0.1.15-aarch64-apple-darwin.tar.gz"
+      sha256 "57c6011b426c192fa7b3d5340eb2cd414f14b23ff16dc758389144db977fbc81"
     end
     on_intel do
-      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.14/oximux-0.1.14-x86_64-apple-darwin.tar.gz"
-      sha256 "925dd9e7434b237f80e83b69a3ecd72461e63fc60267f8da956e4c8e31bc64a5"
+      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.15/oximux-0.1.15-x86_64-apple-darwin.tar.gz"
+      sha256 "1721cc1f50a5e709b06f75f953bf05ec6e02dde6c026bd923ba63e95000eb36a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.14/oximux-0.1.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bbd57037cdeddf888840c66d88e220f6805d71973831fd8978331954d13fd176"
+      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.15/oximux-0.1.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c753508ac2c6f0a338a19e9a4824ed1a23e3f9046e0dfe03681a885d057495c7"
     end
     on_arm do
-      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.14/oximux-0.1.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e7745682ea9ad7fc5474f9e508abcd46d5afe438f33dfc38a6d6e58ee8c8bd26"
+      url "https://github.com/nhtera/OxiMux/releases/download/v0.1.15/oximux-0.1.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ade8b7849114038b346865ab00b4df5e333277af80cc8efd0583a43f970ebd12"
     end
   end
 
