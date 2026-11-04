@@ -1,6 +1,6 @@
 cask "vmpane" do
-  version "1.0.0-beta.11"
-  sha256 "aa84497c378aa615d9ebdcccf285dfa6e616bef7d42e300bb38f016d2f5dbb51"
+  version "1.0.0-beta.12"
+  sha256 "1f2c01e2bda0995524066945b29dcff5d5da72d62704feda7a7a554dd5346b1c"
 
   url "https://github.com/nhtera/vmpane/releases/download/v#{version}/VMPane-#{version}.dmg"
   name "VMPane"
